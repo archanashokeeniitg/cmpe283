@@ -61,3 +61,21 @@ g. Reboot
 Verify newer kernel after reboot using:
 
 `uname -a`
+
+# Answers
+
+## For assignment 2, select two of the four above CPUID leaf nodes and implement the functionality 
+described, and answer the questions below.
+
+Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there 
+more exits performed during certain VM operations? Approximately how many exits does a full VM 
+boot entail?
+
+Of the exit types defined in the SDM, which are the most frequent? Least?
+
+
+No, the number of exits do not increase at a stable rate.
+
+Yes, There are more exits performing during certain VM operations. A full VM boot entail around ~830000 exits.
+
+
