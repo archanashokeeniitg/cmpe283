@@ -1,4 +1,7 @@
-# cmpe283 ass 2
+# CMPE283 Ass 2
+
+Archana Shokeen(015237378) 
+
 ## Question
 Your assignment is to modify the CPUID emulation code in KVM to report back additional information 
 when special CPUID leaf nodes are requested.
@@ -69,9 +72,7 @@ described, and answer the questions below.
 
 Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there 
 more exits performed during certain VM operations? Approximately how many exits does a full VM 
-boot entail?
-
-Of the exit types defined in the SDM, which are the most frequent? Least?
+boot entail? Of the exit types defined in the SDM, which are the most frequent? Least?
 
 
 No, the number of exits do not increase at a stable rate.
